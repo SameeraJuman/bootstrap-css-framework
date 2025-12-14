@@ -1,0 +1,15 @@
+.hero {
+    background-image: url("img/hero.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-purple {
+    color: rgb(163, 102, 225);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
