@@ -1,0 +1,47 @@
+.franchise-btn {
+    background-color: #dc3545;
+    border-radius: 15px;
+    padding: 0;
+    padding-left: 10px;
+    margin-top: 8px;
+}
+
+.main-hero {
+    background-image: url("img/mainHero.avif");
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    /* filter: brightness(70%); */
+}
+
+.min-vh-80 {
+    min-height: 80vh;
+}
+
+.explore-img {
+    border-radius: 10px;
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.team-hero {
+    position: relative;
+    height: 70vh
+}
+.team-hero img {
+    width: 100%;;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(50%);
+}
+.team-hero .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* 
+* {
+    outline: 1px solid red;
+} */
