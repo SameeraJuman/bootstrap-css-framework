@@ -14,7 +14,7 @@ This website was built following the Youtube tutorial: [Responsive Bootstrap 4 G
 ### Image sources
 Images are from https://wallhaven.cc/
 
-### Live demo: 
+### Live demo: https://sameerajuman.github.io/bootstrap-css-framework/gaming-website
 
 ### Disclaimer
 This project is for educational purposes only.
