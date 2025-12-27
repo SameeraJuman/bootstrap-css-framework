@@ -17,7 +17,7 @@ This project was built for my learning and better practice of my front-end devel
 - Bootstrap grid system and components
 - Custom CSS 
 
-### Live demo: (link here)
+### Live demo: https://sameerajuman.github.io/bootstrap-css-framework/cc's-coffee-house-replica
 
 ### Future plans
 I will revisit this project to build the replicas of the other pages sometime in the future. 
