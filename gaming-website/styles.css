@@ -1,0 +1,56 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: rgba(19, 22, 26, 0.2);
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    position: relative;
+    /* top: 0; */
+    z-index: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 6rem;
+    height: 5rem;
+}
+
+/* .site-wrapper {
+    height: 120vh; 
+    margin: 0;
+    padding: 0; 
+} */
+
+.card, .list-group-item, .section-4 {
+    background-color: #222831;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.parallax {
+    background-image: url("img/ship.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 320px){
+    .site-wrapper {
+        min-height: 200px;
+    }
+
+    .col-md-4 {
+        margin: 5% 0%;
+    }
+}
