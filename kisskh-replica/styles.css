@@ -1,0 +1,10 @@
+.navbar-logo {
+    max-height: 50px;
+    height: auto;
+    width: auto;
+    transform: scale(1.5);
+}
+
+.dropdown-menu {
+    min-width: 220px;
+}
