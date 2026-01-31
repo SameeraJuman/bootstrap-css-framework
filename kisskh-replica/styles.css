@@ -8,3 +8,14 @@
 .dropdown-menu {
     min-width: 220px;
 }
+
+/* carousel */
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: center top;
+}
+
