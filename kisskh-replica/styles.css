@@ -4,7 +4,6 @@
     width: auto;
     transform: scale(1.5);
 }
-
 .dropdown-menu {
     min-width: 220px;
 }
@@ -13,9 +12,39 @@
 .carousel-item {
     height: 500px;
 }
-
 .carousel-item img {
     object-fit: cover;
     object-position: center top;
 }
 
+/* continue watching */
+.card {
+    width: 22rem;
+}
+.card:hover {
+    cursor: pointer;
+}
+.card img {
+    height: 200px;
+}
+.card-img-overlay {
+    margin-top: 150px;
+}
+.scroll-arrows {
+    padding: 0;
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+#continueRow {
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+#continueRow::-webkit-scrollbar {
+    display: none;
+}
+#continueRow .col {
+    scroll-snap-align: start;   
+}
